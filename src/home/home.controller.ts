@@ -1,6 +1,6 @@
 import { Request, Response, Router } from "express";
 import { Message, MessageStatus } from "@/shared/model/message.entity";
-import { HttpStatus } from "@/lib/http-status.enum";
+import { HttpStatus } from "@/lib/http-status";
 
 const controller = Router();
 
