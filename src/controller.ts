@@ -1,6 +1,6 @@
 import { Express } from "express";
-import { HomeController } from "@/home";
+import { home } from "@/home";
 
 export const controller = (app: Express) => {
-  app.use("", HomeController);
+  app.use("", home);
 };
