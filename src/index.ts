@@ -15,7 +15,7 @@ const port = Number(process.env.PORT) || 8000;
 
 app.listen(port, host, () => {
   console.log(
-    `Server running at http://${
+    `🔥 Server running at http://${
       host === "0.0.0.0" ? "localhost" : host
     }:${port}`
   );
